@@ -1,6 +1,7 @@
 # nssl_mri
 
-This repo is for code and realted material for the manuscript 
+This repo is for code and related material for the manuscript: 
 
-"Evidence that the solar cycle begins with the magnetorotational
-instability in the near-surface shear layer"
+"The solar cycle begins near the surface" 
+
+to be published in Nature 2024.
