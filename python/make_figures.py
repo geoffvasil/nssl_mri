@@ -135,6 +135,11 @@ for kk in range(myrank,ncase,size):
     print(growth + ', ' + period)
     print(50*'-')
 
+    for f in [u,b,a,ψ]:
+        f.change_scales(1)
+
+    u.require_grid_space()
+    b.require_grid_space()
     u.load_from_hdf5(file,0)
     b.load_from_hdf5(file,0)
 
