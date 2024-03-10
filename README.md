@@ -14,4 +14,4 @@ Ben Brown,
 Nic Brummell,
 Keith Julien.
 
-The original computaitons and some analysis scrips use Dedalus (https://dedalus-project.org).
+The original computations and some analysis scrips use Dedalus (https://dedalus-project.org).
