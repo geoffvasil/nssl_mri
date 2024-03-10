@@ -1,4 +1,4 @@
-This data is found in the supplemental information from: 
+These data originate from the supplemental information in: 
 
 	T. P. Larson and J. Schou. 
 	Global-mode analysis of full-disk data from the 
@@ -6,7 +6,7 @@ This data is found in the supplemental information from:
 	Solar Physics, 293(2), January 2018.
 
 
-These data are used in the script figure_1.py for generation the Figure 1 time-averaged differential rotation plots. 
+The script figure_1.py use these data for generating the Figure 1 time-averaged differential rotation and gradient plots. 
 
 
 

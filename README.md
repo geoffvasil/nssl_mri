@@ -13,3 +13,5 @@ Jeff Oishi,
 Ben Brown,
 Nic Brummell,
 Keith Julien.
+
+The original computaitons and some analysis scrips use Dedalus (https://dedalus-project.org).
