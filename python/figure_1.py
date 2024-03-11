@@ -12,6 +12,7 @@ import math
 
 save_figs = True
 
+plt.rcParams['pdf.fonttype']=42
 
 def D(x,k=2,d=1):
     """Returns a matrix for the (2k+1)-point
