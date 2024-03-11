@@ -94,9 +94,9 @@ Z = np.copy(Omega)
 i = np.where( np.sqrt(X**2 + Y**2) > 1 )
 Z[i] = None
 
-fig, ax = plt.subplots(rasterized=True)
+fig, ax = plt.subplots()
 
-pcm = ax.pcolormesh(X,Y,Z, shading='gouraud',cmap=cmap,vmin=pmin, vmax=pmax)
+pcm = ax.pcolormesh(X,Y,Z, shading='gouraud',cmap=cmap,vmin=pmin, vmax=pmax, rasterized=True)
 
 ax.contour(X,Y,Z,colors='k',levels=20)
 
@@ -150,10 +150,10 @@ i = np.where( np.sqrt(X**2 + Y**2) > 1 )
 Z[i] = None
 
 
-fig, ax = plt.subplots(rasterized=True)
+fig, ax = plt.subplots()
 
 
-pcm = ax.pcolormesh(X,Y,Z, shading='gouraud',cmap=cmap,vmin=pmin, vmax=pmax)
+pcm = ax.pcolormesh(X,Y,Z, shading='gouraud',cmap=cmap,vmin=pmin, vmax=pmax, rasterized=True)
 
 plt.axis([0,1.01,0,1.01])
 
@@ -205,10 +205,10 @@ i = np.where( np.sqrt(X**2 + Y**2) > 1 )
 Z[i] = None
 
 
-fig, ax = plt.subplots(rasterized=True)
+fig, ax = plt.subplots()
 
 
-pcm = ax.pcolormesh(X,Y,Z, shading='gouraud',cmap=cmap,vmin=pmin, vmax=pmax)
+pcm = ax.pcolormesh(X,Y,Z, shading='gouraud',cmap=cmap,vmin=pmin, vmax=pmax, rasterized=True)
 
 plt.axis([0,1.01,0,1.01])
 
